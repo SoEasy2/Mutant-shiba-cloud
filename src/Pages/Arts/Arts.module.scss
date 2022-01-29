@@ -1,0 +1,107 @@
+.hr{
+  color:#808080;
+}
+.header{
+  box-shadow: 1px 3px 8px 0px rgba(34, 60, 80, 0.2);
+  border-bottom: 1px solid #808080;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 10;
+}
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.arts{
+  background-color: 	#F3F6F9;
+}
+.artsWrapper{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 125px;
+
+}
+.artsItems{
+  background-color: #fff;  padding: 30px 0;
+  align-items: center;
+  box-shadow: 0px 0px 16px 0px rgba(34, 60, 80, 0.2);
+  border-radius: 6px;
+  width: 100%;
+  position: relative;
+}
+.container{
+  margin: 0 auto;
+  max-width: 1400px;
+}
+.textMyArts{
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  color:gray;
+  position: absolute;
+  top: -20px;
+  left: 30px;
+}
+.wrapperItems{
+  display: flex;
+  flex-wrap: wrap;
+}
+.img{
+  object-fit: contain;
+  width: 415px;
+  height: 100%;
+  border-radius: 10px;
+}
+.item{
+  cursor: pointer;
+  margin-left: 30px;
+  margin-bottom: 50px;
+
+}
+.item1{
+  transition: all 1s;
+  &:hover{
+    transform: scale(1.2);
+  }
+
+}
+.item2{
+  transition: all 1.5s;
+  &:hover{
+    transform: rotate(360deg);
+  }
+
+}
+.item3{
+  transition: all 1.5s;
+  &:hover{
+    transform: rotateX(360deg);
+  }
+}
+
+.item4{
+  transition: all 1.5s;
+  &:hover{
+    transform: rotateY(180deg);
+  }
+}
+.item5{
+  transition: all 1.5s;
+  &:hover{
+    transform: rotate(360deg);
+  }
+}
+.item6{
+  transition: all 1.5s;
+  &:hover{
+    transform: rotateY(180deg);
+  }
+}
+.textDisck{
+  font-size: 28px;
+  font-family: 'Roboto', sans-serif;
+  margin-right: 30px;
+}
+
