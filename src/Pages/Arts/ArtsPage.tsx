@@ -13,7 +13,8 @@ import imageNine from '../../assets/img9.jpeg'
 import imageTen from '../../assets/img10.jpeg'
 import imageEleven from '../../assets/img11.jpeg'
 import imageTwelve from '../../assets/img12.jpeg';
-import imageThirteen from '../../assets/img13.jpeg'
+import imageThirteen from '../../assets/img13.jpeg';
+import imageFourteen from "../../assets/14.jpeg";
 import {useNavigate} from "react-router-dom";
 
 const ArtsPage = () => {
@@ -74,6 +75,9 @@ const ArtsPage = () => {
                             </div>
                             <div className={`${styles.item} ${styles.item3}`} onClick={() => navigate('item/13')}>
                                 <img src={imageThirteen} alt="" className={styles.img}/>
+                            </div>
+                            <div className={`${styles.item} ${styles.item2}`} onClick={() => navigate('item/13')}>
+                                <img src={imageFourteen} alt="" className={styles.img}/>
                             </div>
                         </div>
                     </div>
